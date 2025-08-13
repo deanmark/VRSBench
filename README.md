@@ -28,7 +28,7 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 VRSBench is a Versatile Vision-Language Benchmark for Remote Sensing Image Understanding. It consists of 29,614 remote sensing images with detailed captions, 52,472 object refers, and 3123,221 visual question-answer pairs. It facilitates the training and evaluation of vision-language models across a broad spectrum of remote sensing image understanding tasks. 
 
 ## 🗓️ TODO
-- [x] **[2024.10.15]** Release evaluation code. Two changes from our initial submission, 1) we added a GPT-based metric, CHIAR, for long caption evaluation; 2) we used a GPT-based evaluation protocol in our final version. GPT-based evaluation can better account for synonyms in open-set VQA.
+- [x] **[2024.10.15]** Release evaluation code. Two changes from our initial submission, 1) we added a GPT-based metric, CLAIR, for long caption evaluation; 2) we used a GPT-based evaluation protocol in our final version. GPT-based evaluation can better account for synonyms in open-set VQA.
 - [x] **[2024.10.15]** Release code and models of baseline models.
 - [x] **[2024.06.19]** We release the instructions and code for calling GPT-4V to get initial annotations.
 - [x] **[2024.06.19]** We release the VRSBench, A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding. VRSBench contains 29,614 images, with 29,614 human-verified detailed captions, 52,472 object references, and 123,221 question-answer pairs. check [VRSBench Project Page](https://vrsbench.github.io/).
