@@ -12,7 +12,10 @@ def computeIoU(bbox1, bbox2, return_iou=False):
     bbox1_area = (x2 - x1 + 1) * (y2 - y1 + 1)
     bbox2_area = (x4 - x3 + 1) * (y4 - y3 + 1)
     union_area = bbox1_area + bbox2_area - intersection_area
-    iou = intersection_area / union_area
+    if union_area <= 0:
+        iou = 0.0
+    else:
+        iou = intersection_area / union_area
     if return_iou:
         return iou, intersection_area, union_area
     else:
