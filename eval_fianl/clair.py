@@ -32,7 +32,7 @@ def clair(
     # if model not in _engine_cache:
     #     _engine_cache[model] = LLMEngine.from_string(model)
 
-    # Format the canndidates and targets
+    # Format the candidates and targets
     candidate_statements = [f"- {c}\n" for c in candidates]
     target_statements = [f"- {t}\n" for t in targets]
     formatted_prompt = _CLAIR_PROMPT.format(
